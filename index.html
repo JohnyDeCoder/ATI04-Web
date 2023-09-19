@@ -2,8 +2,12 @@
 <html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="utf-8" />
+    <meta name="description" content="ATI04-Web - Based in Cult Of The Lamb" />
+    <meta name="author" content="JohnyDeCoder" />
+    <meta name="keywords" content="ATI04-Web" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ATI04-Web</title>
+    <title>ATI04-Web - Home</title>
+    <link rel="icon" href="./assets/img/ico/favicon.ico" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,11 +19,12 @@
   <body>
     <header class="sticky-top">
       <nav class="navbar" style="background-color: crimson">
-        <div class="container-fluid m-2">
+        <div class="container-fluid m-1">
           <img
             src="./assets/img/webp/logo-nobottom-white.webp"
-            alt=""
-            width="150"
+            alt="Cult of the Lamb logo"
+            width="100"
+            height="auto"
           />
           <button
             class="navbar-toggler"
@@ -35,13 +40,13 @@
             class="offcanvas offcanvas-end"
             tabindex="-1"
             id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
           >
             <div class="offcanvas-header">
               <img
                 src="./assets/img/webp/logo-nobottom-white.webp"
                 alt=""
                 width="150"
+                height="auto"
               />
               <button
                 type="button"
@@ -52,11 +57,10 @@
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <p class="">Menu</p>
                 <p class="text-muted">Welcome to the cult!</p>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="/"
-                    ><strong>Home</strong></a
-                  >
+                  <a class="nav-link active" href="/"><strong>Home</strong></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/contact.html">Contact</a>
@@ -77,7 +81,24 @@
     </header>
 
     <main>
-      <img src="./assets/img/gifs/216137.gif" class="d-block w-100" alt="..." />
+      <div class="card text-bg-dark">
+        <video
+          autoplay
+          muted
+          loop
+          id="mainVideo"
+          class="object-fit-cover main-video"
+        >
+          <source src="./assets/videos/videoplayback.webm" type="video/webm" />
+          Your browser does not support HTML5 video.
+        </video>
+        <div
+          class="card-img-overlay d-flex justify-content-center align-items-center"
+        >
+          <h1 class="card-title text-uppercase">HOME</h1>
+        </div>
+      </div>
+
       <div class="container">
         <hr />
         <div class="row">
@@ -89,31 +110,31 @@
               /
               <a href="/contact.html" class="m-2 mb-0 mt-0">CONTACT</a>
             </p>
+            <hr />
             <article class="card mb-3 mt-3">
               <div class="row g-0">
                 <div class="col-md-4 d-flex align-items-center">
                   <img
-                    src="./assets/img/gifs/cult-of-the-lamb-pentagram.gif"
+                    src="./assets/img/gifs/cult-of-the-lamb-crown.gif"
                     class="img-fluid rounded"
-                    alt="..."
+                    alt="The Lamb and his crown with Narinder"
                   />
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
-                    <h5
+                    <h2
                       class="card-title fs-1 text-uppercase"
                       style="color: crimson"
                     >
                       He has the red crown, he is faithful
-                    </h5>
+                    </h2>
                     <div class="card-text">
                       <p class="fs-4">
                         But if we are living in the dark, as the
-                        <span class="crimson-underline">Narinder</span> is in
-                        the dark, then we have fellowship with each other, and
-                        the blood of
-                        <span class="crimson-underline">The Lamb</span>, its
-                        wearer, cleanses us from all sin.
+                        <span class="crimson-color">Narinder</span> is in the
+                        dark, then we have fellowship with each other, and the
+                        blood of <span class="crimson-color">The Lamb</span>,
+                        its wearer, cleanses us from all sin.
                       </p>
                       <p class="fs-4">
                         If we claim we have no sin, we are only fooling
@@ -126,7 +147,7 @@
                     <blockquote class="blockquote mb-0">
                       <p>
                         Come closer. Fear not, for though you are
-                        <span class="crimson-underline">alive for now</span>, I
+                        <span class="crimson-color">alive for now</span>, I
                         still need you.
                       </p>
                       <footer class="blockquote-footer">
@@ -152,7 +173,7 @@
             <p class="fs-4">
               Don't be greedy, for a greedy person is an idolater, worshiping
               the things of this world. Because of these sins, the anger of
-              <span class="crimson-underline">Narinder</span> is coming!
+              <span class="crimson-color">Narinder</span> is coming!
             </p>
             <p class="fs-4">
               You used to do these things when your life was still part of this
@@ -161,8 +182,8 @@
             </p>
             <p class="fs-4">
               Put on your new nature, and be renewed as you learn to know your
-              <span class="crimson-underline">Creator, The One Who Waits</span>,
-              and become like him in this new life.
+              <span class="crimson-color">Creator, The One Who Waits</span>, and
+              become like him in this new life.
             </p>
           </div>
         </div>
@@ -176,21 +197,21 @@
               <img
                 src="./assets/img/gifs/lamb-1.gif"
                 class="img-fluid"
-                alt=""
+                alt="The Lamb"
               />
             </div>
             <p class="fs-4">
               If you want to be part of the Cult of the Lamb, son of Narinder
               you must follow the
-              <span class="crimson-underline"
+              <span class="crimson-color"
                 >6 sacred commandments that Narinder left his son</span
               >.
             </p>
             <p class="fs-4">
               Remember, no temptation has overtaken you except what is common to
               mankind. And
-              <span class="crimson-underline">he is faithful</span>; he will not
-              let you be tempted beyond what you can bear!
+              <span class="crimson-color">he is faithful</span>; he will not let
+              you be tempted beyond what you can bear!
             </p>
           </div>
           <div class="col-md-6">
@@ -274,8 +295,9 @@
           >
             <img
               src="./assets/img/webp/logo-nobottom-white.webp"
-              alt=""
+              alt="Cult of the Lamb logo"
               width="150"
+              height="auto"
             />
           </a>
           <ul class="nav col-md-4 col-sm-12 justify-content-end">

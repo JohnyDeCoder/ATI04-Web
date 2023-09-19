@@ -9,6 +9,11 @@ h5 {
     font-weight: 700;
 }
 
+h1 {
+    font-size: 6rem;
+    text-shadow: #212529 0em 0em 0.3em;
+}
+
 p,
 span {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -33,4 +38,10 @@ a:hover {
 
 .crimson-color {
     color: crimson;
+}
+
+.main-video {
+    width: 100%;
+    height: 30rem;
+    filter: brightness(50%);
 }
