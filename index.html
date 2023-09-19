@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" data-bs-theme="dark">
+<html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav class="navbar fixed-top" style="background-color: crimson">
+    <header class="sticky-top">
+      <nav class="navbar" style="background-color: crimson">
         <div class="container-fluid m-2">
           <img
             src="./assets/img/webp/logo-nobottom-white.webp"
@@ -54,12 +54,12 @@
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <p class="text-muted">Welcome to the cult!</p>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
+                  <a class="nav-link active" aria-current="page" href="/"
+                    ><strong>Home</strong></a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="/contact.html">Contact</a>
                 </li>
               </ul>
             </div>
@@ -82,6 +82,13 @@
         <hr />
         <div class="row">
           <div class="col-12">
+            <p class="">
+              <a href="/" class="m-2 mb-0 mt-0"
+                ><strong class="crimson-underline">HOME</strong></a
+              >
+              /
+              <a href="/contact.html" class="m-2 mb-0 mt-0">CONTACT</a>
+            </p>
             <article class="card mb-3 mt-3">
               <div class="row g-0">
                 <div class="col-md-4 d-flex align-items-center">
@@ -252,19 +259,18 @@
             </table>
           </div>
         </div>
-        <hr />
       </div>
 
       <div class="container">
         <footer
           class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
         >
-          <p class="col-md-4 mb-0 text-body-secondary">
+          <p class="col-md-4 col-sm-12 mb-0 text-body-secondary">
             &copy; 2023 The Real Cult of the Lamb
           </p>
           <a
             href="#"
-            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+            class="col-md-4 col-sm-12 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
           >
             <img
               src="./assets/img/webp/logo-nobottom-white.webp"
@@ -272,12 +278,14 @@
               width="150"
             />
           </a>
-          <ul class="nav col-md-4 justify-content-end">
+          <ul class="nav col-md-4 col-sm-12 justify-content-end">
             <li class="nav-item">
-              <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+              <a href="/" class="nav-link px-2 text-body-secondary">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link px-2 text-body-secondary">Contact</a>
+              <a href="/contact.html" class="nav-link px-2 text-body-secondary"
+                >Contact</a
+              >
             </li>
             <li class="nav-item">
               <a href="#top" class="nav-link px-2 text-body-secondary"

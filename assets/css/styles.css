@@ -1,3 +1,5 @@
+/* Elements */
+
 h1,
 h2,
 h3,
@@ -11,6 +13,18 @@ p,
 span {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+a {
+    color: crimson;
+    text-decoration: none;
+}
+
+a:hover {
+    color: crimson;
+    text-decoration: underline;
+}
+
+/* Classes */
 
 .crimson-underline {
     color: crimson;
